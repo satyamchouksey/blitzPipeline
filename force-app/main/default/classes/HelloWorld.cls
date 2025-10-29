@@ -1,6 +1,5 @@
-public with sharing class HelloWorld {
-    @AuraEnabled(cacheable=true)
-    public static String sayHello() {
-        return 'Hello, World!12';
+public class HelloWorld {
+    public static void sayHello() {
+        System.debug('Hello, World!');
     }
 }
