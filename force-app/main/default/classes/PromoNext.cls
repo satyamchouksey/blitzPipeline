@@ -1,5 +1,5 @@
 public class PromoNext {
     public void welcome() {
-        System.debug('hello123');
+        System.debug('hello12345');
     }
 }
